@@ -1,0 +1,8 @@
+insert({word, 1})
+insert(make_pair(word, 1));
+insert(pair<string, size_t>(word, 1));
+
+bool compareISBN(const Sales_data &lhs, const Sales_data &rhs)
+{
+    return lhs.isbn() < rhs.isbn();
+}
